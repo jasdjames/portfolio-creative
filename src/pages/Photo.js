@@ -1,3 +1,3 @@
 export const Photo = () => {
-  return <div>Pics coming soon!!</div>;
+  return <div className="text-9xl">Pics coming soon!!</div>;
 };
