@@ -11,9 +11,10 @@ export const Header = () => {
       <div className="m-4 text-center">
         <p>Creative Portfolio</p>
       </div>
-
-      <div>
-        <NavBar />
+      <div className="container">
+        <div className="flex justify-end">
+          <NavBar />
+        </div>
       </div>
     </header>
   );
