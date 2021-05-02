@@ -33,10 +33,6 @@ export const Photo = () => {
               alt="Greenly Colorado Christmas"
             ></img>
           </div>
-          <div className="m-2">
-            {' '}
-            <img src="" alt=""></img>
-          </div>
         </div>
       </div>
     </>
