@@ -22,7 +22,7 @@ This project is a revamped portfolio using React
 This projected will be deployed and ready to use upon deployment
 
 [Repo](https://github.com/jasdjames/portfolio-creative)
-[Deployed]()
+[Deployed](https://romantic-mestorf-3ca35a.netlify.app)
 
 ## Usage
 

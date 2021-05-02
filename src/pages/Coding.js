@@ -1,4 +1,5 @@
 import code from '../design/img/code.jpeg';
+import { Project } from '../components/Project';
 
 export const Coding = () => {
   return (
@@ -51,7 +52,8 @@ export const Coding = () => {
               {/* Try Grid Span instead ??? Whole page */}
             </div>
             <div className="grid grid-cols-3 gap-4 place-items-center">
-              <div className=" mb-4">
+              <Project />
+              {/* <div className=" mb-4">
                 <a href="https://condescending-nobel-29ef6b.netlify.app/">
                   <img
                     className="border-4 rounded-lg"
@@ -70,8 +72,8 @@ export const Coding = () => {
                     Employee Directory repository.
                   </a>
                 </p>
-              </div>
-
+              </div> */}
+              {/* 
               <div className="mb-4  ">
                 <a href="https://pedagu-gu.herokuapp.com/profile">
                   <img
@@ -118,7 +120,7 @@ export const Coding = () => {
                     Note Taker repository.
                   </a>
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
