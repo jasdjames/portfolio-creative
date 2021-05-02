@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router';
-import { Header } from '../components';
+import { Header, Footer } from '../components';
 
 export const Main = (props) => {
   return (
@@ -10,7 +10,7 @@ export const Main = (props) => {
       <div className=" border-t-4 w-full h-full bg-gradient-to-r from-pink-500 to-yellow-500">
         <Outlet />
       </div>
+      <Footer />;
     </>
   );
-  //   <Footer />;
 };

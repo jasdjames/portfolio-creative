@@ -12,20 +12,18 @@ export const Contact = () => {
               />
             </div>
             <div className="md:w-2/3 w-full px-3 flex flex-row flex-wrap">
-              <div className="w-full text-right text-gray-700 font-semibold relative pt-3 md:pt-0">
+              <div className="w-full ml-3 text-gray-700 font-semibold relative pt-3 md:pt-0">
                 <div className="text-2xl text-white leading-tight">Contact</div>
-                <div className="text-normal text-gray-300 hover:text-gray-400 cursor-pointer">
-                  <span className="border-b border-dashed border-gray-500 pb-1">
-                    JasDJames
-                  </span>
+                <div className="text-normal text-gray-300 m-1 hover:text-gray-400 cursor-pointer">
+                  <span className="border-b border-dashed border-gray-500 pb-1"></span>
                   <div>
-                    <h2> Contact Information</h2>
+                    <h2 className="m-1"> Contact Information</h2>
 
-                    <h3>Email</h3>
-                    <p> jasdjames@gmail.com</p>
-                    <h3>Phone</h3>
-                    <p> (832) 362-4165</p>
-                    <h3>LinkedIn</h3>
+                    <h3 className="m-1">Email</h3>
+                    <p className="m-1"> jasdjames@gmail.com</p>
+                    <h3 className="m-1">Phone</h3>
+                    <p className="m-1"> (832) 362-4165</p>
+                    <h3 className="m-1 ">LinkedIn</h3>
 
                     <div
                       className="LI-profile-badge"
@@ -37,15 +35,15 @@ export const Contact = () => {
                       data-vanity="jasdjames"
                     >
                       <a
-                        className="LI-simple-link"
+                        className="LI-simple-link hover:text-blue-700"
                         href="https://www.linkedin.com/in/jasdjames?trk=profile-badge"
                       >
-                        Jasmine James
+                        Jasmine James's LinkedIn Page
                       </a>
                     </div>
 
                     <h3>Résumé </h3>
-                    <p class="card-text">
+                    <p className="hover:text-blue-700">
                       Click here{' '}
                       <span id="resEm">
                         {' '}

@@ -26,14 +26,14 @@ const solutions = [
 
 export function NavBar() {
   return (
-    <div className="w-screen max-w-sm px-4 m-6 top-16">
+    <div className="w-screen max-w-sm px-4 m-6 mt-2 font-mono border-t-2 border-b-2 ">
       <Popover>
         {({ open }) => (
           <>
             <Popover.Button
               className={`
                 ${open ? '' : 'text-opacity-90'}
-                text-white group bg-orange-700 px-3 py-2 rounded-md inline-flex items-center text-base font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
+                text-white text-2xl group bg-orange-700 px-3 py-2 rounded-md inline-flex  text-base font-medium hover:text-opacity-100 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
               <span>Portfolio Sections</span>
               <ChevronDownIcon
