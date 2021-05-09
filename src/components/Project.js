@@ -18,6 +18,13 @@ const proInfo = [
     hrefTwo: 'https://github.com/jasdjames/note-taker-express',
     name: 'Note Taker repository',
   },
+  {
+    href: 'https://booksbooksbooks-react.herokuapp.com/',
+    src:
+      'https://project2ejmq.s3.us-east-2.amazonaws.com/Screen+Shot+2021-05-08+at+9.51.19+PM.png',
+    hrefTwo: 'https://github.com/jasdjames/BooksBooksBooks-MERN',
+    name: 'Books, Book, Books',
+  },
 ];
 
 export const Project = () => {
