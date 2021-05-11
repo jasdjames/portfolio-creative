@@ -7,7 +7,7 @@ const proInfo = [
   },
   {
     href: 'https://pedagu-gu.herokuapp.com/profile',
-    src: 'https://project2ejmq.s3.us-east-2.amazonaws.com/images/Sshot-p1.png',
+    src: 'https://project2ejmq.s3.us-east-2.amazonaws.com/images/pedagogue.png',
     hrefTwo: 'https://github.com/erumd/Project2-repository',
     name: ' PedaGOgue repository',
   },
@@ -24,6 +24,19 @@ const proInfo = [
       'https://project2ejmq.s3.us-east-2.amazonaws.com/Screen+Shot+2021-05-08+at+9.51.19+PM.png',
     hrefTwo: 'https://github.com/jasdjames/BooksBooksBooks-MERN',
     name: 'Books, Book, Books',
+  },
+  {
+    href: 'https://wjutterback.github.io/JoyWillJazzPlusPlus/',
+    src: 'https://project2ejmq.s3.us-east-2.amazonaws.com/images/Sshot-p1.png',
+    hrefTwo: 'https://github.com/wjutterback/JoyWillJazzPlusPlus',
+    name: 'Joy Will Jazz++',
+  },
+  {
+    href: 'https://github.com/jasdjames/Team-Management-mySQL',
+    src:
+      'https://project2ejmq.s3.us-east-2.amazonaws.com/images/Screen+Shot+2021-05-10+at+7.18.51+PM.png',
+    hrefTwo: 'https://github.com/jasdjames/Team-Management-mySQL',
+    name: 'Team Management - mySQL',
   },
 ];
 
